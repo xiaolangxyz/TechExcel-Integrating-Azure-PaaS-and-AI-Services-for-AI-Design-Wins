@@ -76,9 +76,9 @@ def create_transcription_request(audio_file, speech_recognition_language="en-US"
     while not done:
         time.sleep(.5)
 
-    transcriber.stop_transcribing_async()
+    transcriber.stop_transcribing_async('This is a test.')
 
-
+    all_results.append
     # all_results = ['This is a test.', 'Fill in with real transcription.']
 
     return all_results
